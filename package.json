@@ -1,0 +1,19 @@
+{
+  "name": "encryptonewsbackend",
+  "version": "1.0.0",
+  "description": "consuming api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Diego Allies",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "newsapi": "^2.4.1"
+  }
+}
